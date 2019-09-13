@@ -32,5 +32,6 @@ def find_a(array)
     wordsA.start_with?("a") do |puta|
     puta
   end
+  end
 end
   

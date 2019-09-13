@@ -35,6 +35,8 @@ def find_a(array)
   end
 end
 
+
+
 def sum_array(array)
   sum = 0 
   array.each do |num|
@@ -42,6 +44,8 @@ def sum_array(array)
   end 
   sum
 end 
+
+#add_s method
 
 def add_s(array)
   array.collect do |word|

@@ -21,11 +21,15 @@ def reverse_array(array)
   array.reverse 
 end
 
+#kesha_maker 
+
 def kesha_maker(array)
   array.each do |kesh|
     kesh[2] = "$"
   end 
 end
+
+#find_a method
 
 def find_a(array)
   array.select do |wordsA|
@@ -35,7 +39,7 @@ def find_a(array)
   end
 end
 
-
+#sum_array method
 
 def sum_array(array)
   sum = 0 

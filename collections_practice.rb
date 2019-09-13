@@ -35,5 +35,6 @@ def find_a(array)
   end
 end
 
-def sas
+def sum_array(array)
+  
   

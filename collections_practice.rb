@@ -29,8 +29,8 @@ end
 
 def find_a(array)
   array.select do |wordsA|
-    wordsA.start_with?("a")
-    wordsA
+    wordsA.start_with?("a") do |puta|
+    puta
   end
 end
   

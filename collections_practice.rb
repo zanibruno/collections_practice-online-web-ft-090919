@@ -11,3 +11,5 @@ def sort_array_char_count(array)
     word.length
   end 
 end
+
+def swap_elements(array)
